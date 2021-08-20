@@ -78,6 +78,7 @@ function draw() {
   textSize(20);
   fill("lightyellow");
   text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
+  text("Press space to rethrow",100,50);
 
   ground.display();
   stand1.display();
